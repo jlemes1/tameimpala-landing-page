@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 import { FaInstagram, FaYoutube, FaSpotify } from 'react-icons/fa';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import img from '../assets/log.svg';
+import img from '../assets/logo.svg';
 import { useState } from 'react';
 
 function Navbar() {
