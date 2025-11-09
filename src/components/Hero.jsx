@@ -2,8 +2,8 @@ function Hero() {
   return (
     <div className='grid grid-cols-2 mt-25 uppercase bg-black p-10 mx-20 rounded-xl '>
       <div className='flex flex-col items-center justify-center gap-4 '>
-        <h2 className='text-5xl font-bold text-white'>Deadbeat</h2>
-        <span className='text-3xl font-bold text-white'>out now</span>
+        <h2 className='text-5xl'>Deadbeat</h2>
+        <span className='text-3xl'>out now</span>
       </div>
       <div>
         <iframe

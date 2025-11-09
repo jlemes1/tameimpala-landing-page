@@ -19,7 +19,7 @@ function Navbar() {
         </Link>
 
         {/* Desktop sections */}
-        <nav className='hidden md:flex items-center uppercase text-white mr-32 text-2xl gap-10'>
+        <nav className='hidden md:flex items-center uppercase mr-32 text-2xl gap-10'>
           <Link
             to='tour'
             spy={true}
