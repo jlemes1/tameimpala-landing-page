@@ -1,6 +1,12 @@
 import { Link } from 'react-scroll';
-import { FaInstagram, FaYoutube, FaSpotify } from 'react-icons/fa';
+import {
+  FaInstagram,
+  FaYoutube,
+  FaSpotify,
+  FaFacebookSquare,
+} from 'react-icons/fa';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 import img from '../assets/logo.svg';
 import { useState } from 'react';
 
@@ -18,7 +24,6 @@ function Navbar() {
           <img src={img} alt='Logo' className='w-sm cursor-pointer' />
         </Link>
 
-        {/* Desktop sections */}
         <nav className='hidden md:flex items-center uppercase mr-32 text-2xl gap-10'>
           <Link
             to='tour'
@@ -57,8 +62,17 @@ function Navbar() {
           </a>
         </nav>
 
-        {/* Desktop social media */}
         <div className='hidden md:flex items-center gap-4'>
+          <a
+            href='https://web.facebook.com/tameimpala/'
+            target='_blank'
+            title='Facebook'
+          >
+            <FaFacebookSquare className='text-white text-3xl hover:text-sky-500' />
+          </a>
+          <a href='https://x.com/tameimpala' target='_blank' title='X'>
+            <FaSquareXTwitter className='text-white text-3xl hover:text-zinc-500' />
+          </a>
           <a
             href='https://www.instagram.com/tameimpala'
             target='_blank'
@@ -82,7 +96,6 @@ function Navbar() {
           </a>
         </div>
 
-        {/* Mobile menu button */}
         <div className='md:hidden cursor-pointer' onClick={handleChange}>
           {menu ? (
             <AiOutlineClose size={24} className='text-white' />
@@ -92,7 +105,6 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Mobile sections */}
       <div
         className={`${menu ? 'translate-x-0' : '-translate-x-full'} 
         md:hidden fixed top-16 left-0 right-0 bottom-0 
@@ -140,8 +152,17 @@ function Navbar() {
           </a>
         </nav>
 
-        {/* Mobile social media */}
         <div className='flex justify-center gap-6 mt-8'>
+          <a
+            href='https://web.facebook.com/tameimpala/'
+            target='_blank'
+            title='Facebook'
+          >
+            <FaFacebookSquare className='text-white text-3xl hover:text-sky-500' />
+          </a>
+          <a href='https://x.com/tameimpala' target='_blank' title='X'>
+            <FaSquareXTwitter className='text-white text-3xl hover:text-zinc-500' />
+          </a>
           <a
             href='https://www.instagram.com/tameimpala'
             target='_blank'
