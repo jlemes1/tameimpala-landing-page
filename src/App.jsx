@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Divider from './components/Divider';
 import Tour from './pages/Tour';
 import Discography from './pages/Discography';
+import History from './pages/History';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Discography />
         <div id='divider' className='pb-26' />
         <Divider />
+        <div id='history' />
+        <History />
       </main>
     </>
   );
