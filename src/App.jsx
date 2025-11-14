@@ -9,22 +9,28 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <div id='header' />
-      <Header />
+      <header id='header'>
+        <Header />
+      </header>
       <main id='main' className='pt-26 pb-26'>
-        <Hero />
-        <div id='divider' className='pb-26' />
+        <section id='hero'>
+          <Hero />
+        </section>
+        <div className='pb-26' />
         <Divider />
-        <div id='tour' />
-        <Tour />
-        <div id='divider' className='pb-26' />
+        <section id='tour'>
+          <Tour />
+        </section>
+        <div className='pb-26' />
         <Divider />
-        <div id='discography' />
-        <Discography />
-        <div id='divider' className='pb-26' />
+        <section id='discography'>
+          <Discography />
+        </section>
+        <div className='pb-26' />
         <Divider />
-        <div id='history' />
-        <History />
+        <section id='history'>
+          <History />
+        </section>
       </main>
       <footer id='footer'>
         <Footer />
