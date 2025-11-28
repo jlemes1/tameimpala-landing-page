@@ -8,7 +8,7 @@ function TourCard({ city, date, venue, ticket }) {
       </div>
       <div className='flex justify-center items-center'>
         <a href={ticket} target='_blank' rel='noopener noreferrer'>
-          <span className='bg-green-400 p-2 rounded-md text-sm md:text-base'>
+          <span className='bg-green-500 p-2 rounded-md text-sm md:text-base'>
             Tickets
           </span>
         </a>
