@@ -111,7 +111,7 @@ function Navbar() {
         flex flex-col bg-black text-white p-4 
         transition-transform duration-300 ease-in-out`}
       >
-        <nav className='flex flex-col space-y-4 text-xl uppercase'>
+        <nav className='flex flex-col justify-center items-center space-y-4 text-xl uppercase'>
           <Link
             to='tour'
             spy={true}
