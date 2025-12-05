@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <div className='bg-black flex flex-col justify-center items-center p-4 '>
+    <footer
+      id='footer'
+      className='bg-black flex flex-col justify-center items-center p-4 '
+    >
       <p className='mb-2'>
         Developed by{' '}
         <a
@@ -17,7 +20,7 @@ function Footer() {
         This is a fan project and is not affiliated with or endorsed by Tame
         Impala.
       </p>
-    </div>
+    </footer>
   );
 }
 

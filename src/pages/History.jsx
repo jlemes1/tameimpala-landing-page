@@ -5,7 +5,10 @@ import img4 from '../assets/tours/slowrush-2019.jpg';
 
 function History() {
   return (
-    <div className='bg-black mx-5 md:mx-20 rounded-xl p-5 md:p-10'>
+    <section
+      id='history'
+      className='bg-black mx-5 md:mx-20 rounded-xl p-5 md:p-10'
+    >
       <div className='flex justify-center items-center uppercase text-3xl md:text-5xl mt-10 md:mt-20'>
         <h2 className='my-10'>History</h2>
       </div>
@@ -145,7 +148,7 @@ function History() {
           </p>
         </article>
       </div>
-    </div>
+    </section>
   );
 }
 

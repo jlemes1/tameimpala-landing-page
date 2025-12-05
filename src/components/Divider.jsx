@@ -2,7 +2,7 @@ import divider from '../assets/divider.svg';
 
 function Divider() {
   return (
-    <div>
+    <div className='pt-26'>
       <img src={divider} alt='Divider' />
     </div>
   );

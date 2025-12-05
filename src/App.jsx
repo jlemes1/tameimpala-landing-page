@@ -5,36 +5,22 @@ import Tour from './pages/Tour';
 import Discography from './pages/Discography';
 import History from './pages/History';
 import Footer from './components/Footer';
+import Main from './components/Main';
 
 function App() {
   return (
     <>
-      <header id='header'>
-        <Header />
-      </header>
-      <main id='main' className='pt-26 pb-26'>
-        <section id='hero'>
-          <Hero />
-        </section>
-        <div className='pb-26' />
+      <Header />
+      <Main>
+        <Hero />
         <Divider />
-        <section id='tour'>
-          <Tour />
-        </section>
-        <div className='pb-26' />
+        <Tour />
         <Divider />
-        <section id='discography'>
-          <Discography />
-        </section>
-        <div className='pb-26' />
+        <Discography />
         <Divider />
-        <section id='history'>
-          <History />
-        </section>
-      </main>
-      <footer id='footer'>
-        <Footer />
-      </footer>
+        <History />
+      </Main>
+      <Footer />
     </>
   );
 }

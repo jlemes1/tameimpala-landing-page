@@ -18,7 +18,7 @@ function Navbar() {
   };
 
   return (
-    <div className='fixed w-full top-0 left-0 z-50'>
+    <nav className='fixed w-full top-0 left-0 z-50'>
       <div className='bg-black flex flex-row justify-between items-center px-4 md:px-32'>
         <Link to='header' spy={true} smooth={true} duration={500}>
           <img src={img} alt='Logo' className='w-sm cursor-pointer' />
@@ -186,7 +186,7 @@ function Navbar() {
           </a>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

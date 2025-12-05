@@ -17,7 +17,10 @@ function Discography() {
   };
 
   return (
-    <div className='bg-black mx-5 md:mx-20 rounded-xl p-5 md:p-10'>
+    <section
+      id='discography'
+      className='bg-black mx-5 md:mx-20 rounded-xl p-5 md:p-10'
+    >
       <div className='flex justify-center items-center uppercase text-3xl md:text-5xl mt-10 md:mt-20'>
         <h2>Discography</h2>
       </div>
@@ -38,7 +41,7 @@ function Discography() {
         isOpen={isModalOpen}
         onClose={handleCloseModal}
       />
-    </div>
+    </section>
   );
 }
 

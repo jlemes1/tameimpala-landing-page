@@ -3,7 +3,10 @@ import TourCard from '../components/TourCard';
 
 function Tour() {
   return (
-    <div className='bg-black mx-5 md:mx-20 rounded-xl p-5 md:p-10'>
+    <section
+      id='tour'
+      className='bg-black mx-5 md:mx-20 rounded-xl p-5 md:p-10'
+    >
       <div className='flex justify-center items-center uppercase text-3xl md:text-5xl mt-10 md:mt-20'>
         <h2>Deadbeat tour</h2>
       </div>
@@ -12,7 +15,7 @@ function Tour() {
           <TourCard key={tourDate.id} {...tourDate} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
